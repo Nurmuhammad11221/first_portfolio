@@ -1,45 +1,19 @@
+import { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
+
 const Contact = () => {
-  const contacts = [
-    {
-      label: 'Telefon',
-      value: '+998 91 798 77 00',
-      href: 'tel:+9987987700',
-      icon: 'TEL',
-      className: 'phone',
-    },
-    {
-      label: 'Telegram',
-      value: '@obonetnedastupen',
-      href: 'https://t.me/obonetnedastupen',
-      icon: 'TG',
-      className: 'telegram',
-    },
-    {
-      label: 'Gmail',
-      value: 'ituchun935@gmail.com',
-      href: 'mailto:ituchun935@gmail.com',
-      icon: 'GM',
-      className: 'gmail',
-    },
-    {
-      label: 'GitHub',
-      value: 'Nurmuhammad11221',
-      href: 'https://github.com/Nurmuhammad11221',
-      icon: 'GH',
-      className: 'github',
-    },
-  ];
+  const { t } = useContext(AppContext);
 
   return (
     <section className="contact-page page-entry">
       <div className="container">
         <div className="contact-header">
-          <h1 className="page-title">Aloqa</h1>
-          <p>Savol, taklif yoki loyiha bo'lsa, quyidagi manzillar orqali bog'lanishingiz mumkin.</p>
+          <h1 className="page-title">{t.contact.title}</h1>
+          <p>{t.contact.description}</p>
         </div>
-                                        
+
         <div className="contact-grid">
-          {contacts.map((contact) => (
+          {t.contact.cards.map((contact) => (
             <a
               key={contact.label}
               className={`contact-card ${contact.className}`}
