@@ -27,6 +27,7 @@ const Header = () => {
       </button>
 
       <nav className={`nav-links ${isOpen ? 'open' : ''}`}>
+        <NavLink to="/" onClick={() => setIsOpen(false)}>Bosh sahifa</NavLink>
         <NavLink to="/works" onClick={() => setIsOpen(false)}>Loyihalar</NavLink>
         <NavLink to="/blog" onClick={() => setIsOpen(false)}>Blog</NavLink>
         <NavLink to="/contact" onClick={() => setIsOpen(false)}>Aloqa</NavLink>

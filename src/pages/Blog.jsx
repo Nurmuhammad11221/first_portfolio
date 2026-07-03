@@ -1,6 +1,18 @@
 const Blog = () => {
   const posts = [
     {
+      title: "React va Vue.js da dastur tuzish asoslari",
+      date: '24 Iyun 2024',
+      category: 'Frontend',
+      text: "React, Vue va Next.js kabi zamonaviy texnologiyalar yordamida tezkor va qulay interfeyslarni qanday yaratish haqida bilimlarim va tajribalarim bo'lishiladi.",
+    },
+    {
+      title: "Node.js, Express va NestJS yordamida API qurish",
+      date: '15 May 2023',
+      category: 'Backend',
+      text: "Backend yo'nalishida Node.js arxitekturasi va uning Express hamda NestJS freymvorklaridan foydalanib API yozish bo'yicha bilim va tajribalarim.",
+    },
+    {
       title: "React'da state va props: sodda tushuntirish",
       date: '24 Iyun 2024',
       category: 'React',
