@@ -52,7 +52,7 @@ const Home = () => {
               <img src="https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://imtihon-azure-eta.vercel.app/&size=256" alt="Loyiha logosi" style={{ objectFit: 'contain', padding: '20px', backgroundColor: '#EDF7FA' }} />
             </div>
             <div className="work-content">
-              <h4><a href="https://imtihon-azure-eta.vercel.app/" target="_blank" rel="noreferrer">Najot Ta'lim - Full-Stack Loyihalarim</a></h4>
+              <h4><a href="https://najot-coin.vercel.app/" target="_blank" rel="noreferrer">Najot Ta'lim - Full-Stack Loyihalarim</a></h4>
               <div className="work-meta">
                 <span className="work-year">2024</span>
                 <span className="work-category">Full-Stack</span>      
